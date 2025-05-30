@@ -1,5 +1,6 @@
 import Test from "./components/Test"
 import Sub from "./components/Sub"
+import Form from "./components/Form"
 
 function App() {
   //   const fruits=[
@@ -15,7 +16,8 @@ function App() {
         {fruits.map((fruit)=> <Test key={fruit.name}  name={fruit.name} price={fruit.price} emoji={fruit.emoji}/>)}
         
       </ul> */}
-      <Sub/>
+      {/* <Sub/> */}
+      <Form />
       </div>
   )
 }
