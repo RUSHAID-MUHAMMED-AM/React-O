@@ -1,7 +1,7 @@
 import Test from "./components/Test"
 import Sub from "./components/Sub"
 import Form from "./components/Form"
-
+import Useeffect from "./components/Useeffect"
 function App() {
   //   const fruits=[
     
@@ -17,7 +17,8 @@ function App() {
         
       </ul> */}
       {/* <Sub/> */}
-      <Form />
+      {/* <Form /> */}
+      <Useeffect/>
       </div>
   )
 }
